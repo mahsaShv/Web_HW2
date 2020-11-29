@@ -1,0 +1,65 @@
+
+*{
+	font-family: Sahel;
+  	src: url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Black.eot');
+ 	src: url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Black.woff') format('woff'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Black.ttf') format('truetype');
+  	font-weight: 500;
+
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+
+#sidebar{
+	background-color: rgba(0, 82, 204, 1);
+	color: white;
+	
+	padding: 20px;
+
+}
+
+h4{
+	font-weight: bold;
+}
+
+#cont1{
+
+}
+
+#cont2{
+	visibility: hidden;
+}
+
+#signup {
+	background-color : rgba(0, 82, 204, 1);
+	color: white;
+	border-color: 	rgba(0, 82, 204, 1);
+	margin: 5px;
+	width: 90px;
+	
+
+}
+
+#login {
+	color: rgba(0, 82, 204, 1);
+	background-color: white;
+	border-color: 	rgba(0, 82, 204, 1);
+	margin: 5px;
+	width: 90px;
+
+}
+
+#header1{
+	box-shadow: inset 10px 0px 10px -10px rgba(0, 0, 0, 1),inset -10px 0px 10px -10px rgba(0, 0, 0, 1);
+	background-color: blue;
+
+}
+
+
+
+
