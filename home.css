@@ -7,12 +7,16 @@
     url('https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel-Black.ttf') format('truetype');
   	font-weight: 500;
 
+
 }
 
 #logo{
 	width: 100px;
 	height: 100px;
 	float: right;
+	display: inline;
+	margin-right: 10px;
+
 }
 
 #sidebar{
@@ -20,11 +24,17 @@
 	color: white;
 	
 	padding: 20px;
+	float: right;
+	width: 300px;
+	height: 100vh;
+	padding-right: 20px;
 
 }
 
 h4{
 	font-weight: bold;
+	direction: rtl;
+	margin-bottom: 20px;
 }
 
 #cont1{
@@ -41,6 +51,9 @@ h4{
 	border-color: 	rgba(0, 82, 204, 1);
 	margin: 5px;
 	width: 90px;
+	height: 
+	display: inline;
+
 	
 
 }
@@ -51,13 +64,114 @@ h4{
 	border-color: 	rgba(0, 82, 204, 1);
 	margin: 5px;
 	width: 90px;
+	display: inline;
+
 
 }
 
 #header1{
-	box-shadow: inset 10px 0px 10px -10px rgba(0, 0, 0, 1),inset -10px 0px 10px -10px rgba(0, 0, 0, 1);
-	background-color: blue;
+	box-shadow: inset 10px 0px 10px -10px rgba(0, 0, 0, 1);
+	direction: ltr;
+	width: 100vh;
+	
 
+}
+
+#hButton{
+	float: right;
+	display: inline;
+	position: relative;
+}
+
+#dButton{
+	float: right;
+	display: inline;
+	position: relative;
+}
+
+#headbox{
+	float: right;
+	width: 100vh;
+
+}
+#list1{
+	direction: rtl;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float: left;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#halatshab{
+	float: right;
+	margin-left: 150px;
+}
+
+#shab{
+	direction: rtl;
 }
 
 
