@@ -19,7 +19,7 @@
 }
 
 #sidebar{
-	background-color: rgba(12, 112, 174, 1);
+	background-color: rgb(12, 112, 174);
 	color: white;
 	
 	padding: 20px;
@@ -27,6 +27,7 @@
 	width: 300px;
 	height: 100vh;
 	padding-right: 20px;
+	position: fixed;
 
 }
 
@@ -122,6 +123,7 @@ h4{
 #headbox{
 	width: 100%;
 	background-color: rgb(231, 239, 248);
+	position: fixed;
 
 }
 #list1{
@@ -209,6 +211,11 @@ input:checked + .slider:before {
 	margin-right: 20px;
 }
 
-
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
 
 
