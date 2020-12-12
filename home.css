@@ -14,13 +14,12 @@
 	width: 100px;
 	height: 100px;
 	float: right;
-	display: inline;
 	margin-right: 10px;
 
 }
 
 #sidebar{
-	background-color: rgba(0, 82, 204, 1);
+	background-color: rgba(12, 112, 174, 1);
 	color: white;
 	
 	padding: 20px;
@@ -46,52 +45,83 @@ h4{
 }
 
 #signup {
-	background-color : rgba(0, 82, 204, 1);
+	background-color : rgba(12, 112, 174, 1);;
 	color: white;
-	border-color: 	rgba(0, 82, 204, 1);
-	margin: 5px;
+	border-color: 	rgba(12, 112, 174, 1);;
+	margin: 20px;
 	width: 90px;
-	height: 
-	display: inline;
+	height: 30px;
+	margin-top: 40px;
+	margin-right: 0px;
+	
+	float: left;
 
 	
 
 }
 
 #login {
-	color: rgba(0, 82, 204, 1);
-	background-color: white;
-	border-color: 	rgba(0, 82, 204, 1);
-	margin: 5px;
+	color: rgba(12, 112, 174, 1);
+	background-color: rgb(231, 239, 248);
+	border-color: 	rgba(12, 112, 174, 1);
+	margin: 20px;
 	width: 90px;
-	display: inline;
+	
+	height: 30px;
+	float: left;
+	margin-top: 40px;
+
+
+
 
 
 }
 
 #header1{
-	box-shadow: inset 10px 0px 10px -10px rgba(0, 0, 0, 1);
-	direction: ltr;
-	width: 100vh;
+	
+	direction: rtl;
+	width: 100%;
+	height: 100px;
+	
 	
 
+}
+
+.active a {
+    color: rgba(12, 112, 174, 1)!important;
 }
 
 #hButton{
 	float: right;
 	display: inline;
 	position: relative;
+	color: rgba(12, 112, 174, 1);
+	border:none; 	
+	background-color: rgb(231, 239, 248);
+	margin-right: 140px;
+}
+#hButton:focus{
+	border-bottom: solid;
+	border-color: rgba(12, 112, 174, 1);
+	background-color: white;
+}
+
+#dButton:focus{
+	border-bottom: solid;
+	border-color: rgba(12, 112, 174, 1);
+	background-color: white;
 }
 
 #dButton{
 	float: right;
 	display: inline;
 	position: relative;
+	color: rgba(12, 112, 174, 1);
 }
 
 #headbox{
-	float: right;
-	width: 100vh;
+	width: 100%;
+	background-color: rgb(231, 239, 248);
 
 }
 #list1{
@@ -172,6 +202,11 @@ input:checked + .slider:before {
 
 #shab{
 	direction: rtl;
+}
+
+.container-fluid{
+	float: right;
+	margin-right: 20px;
 }
 
 
